@@ -1,0 +1,386 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+	  <link rel="stylesheet" href="css/mystyle.css">
+    <title>Лаба 5</title>
+  </head>
+
+<body>
+
+	<style>
+		section {
+			padding: 30px 0;
+		}
+		h1,h2 {
+			margin-bottom: 30px;
+		}
+	</style>
+
+	<main>
+		<section class="container" id="OwlCarousel">
+      <h1>Пушня Олександр</h1>
+			<h1><a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Перелік фото</a></h1>
+
+			<div class="owl-carousel owl-theme">
+				<div class="item"><img src="images/1.jpg"></div>
+				<div class="item"><img src="images/2.jpg"></div>
+				<div class="item"><img src="images/1.jpg"></div>
+        <div class="item"><img src="images/2.jpg"></div>
+			</div>
+
+			<style>
+				.owl-carousel .item img {
+					height: 300px;
+				}
+			</style>
+		</section>
+
+		  		<h2>Slider</h2>
+
+
+				<div id="gallerySlider" style="display:none;">
+
+
+					<img alt="Малюнок 1" src="images/4.jpg"
+						data-image="images/4.jpg"
+						data-description="Малюнок 1">
+
+					<img alt="Малюнок 2" src="images/5.jpg"
+						data-image="images/5.jpg"
+						data-description="Малюнок 2">
+
+					<img alt="Малюнок 3" src="images/6.jpg"
+						data-image="images/6.jpg"
+						data-description="Малюнок 3">
+
+
+				</div>
+	  	</section>
+
+			<style>
+
+			.button {
+			  display: inline-block;
+			  padding: 0.5em 1.0em;
+			  background: #EEE;
+			  border: none;
+			  border-radius: 7px;
+			  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+			  color: #222;
+			  font-family: sans-serif;
+			  font-size: 16px;
+			  text-shadow: 0 1px white;
+			  cursor: pointer;
+			}
+
+			.button:hover {
+			  background-color: #8CF;
+			  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+			  color: #222;
+			}
+
+			.button:active,
+			.button.is-checked {
+			  background-color: #28F;
+			}
+
+			.button.is-checked {
+			  color: white;
+			  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+			}
+
+			.button:active {
+			  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+			}
+
+			/* ---- button-group ---- */
+
+			.button-group {
+			  margin-bottom: 20px;
+			}
+
+			.button-group:after {
+			  content: '';
+			  display: block;
+			  clear: both;
+			}
+
+			.button-group .button {
+			  float: left;
+			  border-radius: 0;
+			  margin-left: 0;
+			  margin-right: 1px;
+			}
+
+			.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+			.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+			</style>
+
+		</section>
+
+
+		<hr>
+
+		<section class="container" id="Magnific">
+			<h1><a href="https://dimsemenov.com/plugins/magnific-popup/" target="_blank">Вспливаючі вікна</a></h1>
+
+				<div class="popup-gallery">
+					<a href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" title="Тигр"><img src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg" width="75" height="75"></a>
+					<a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" title="Зимовий  танець"><img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" width="75" height="75"></a>
+					<a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" title="Непроханний гість"><img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg" width="75" height="75"></a>
+				</div>
+
+			<hr>
+
+<a class="image1" href="http://farm9.staticflickr.com/8241/8589392310_7b6127e243_b.jpg" title="Caption. Can be aligned to any side and contain any HTML.">
+	<img src="http://farm9.staticflickr.com/8241/8589392310_7b6127e243_s.jpg" width="75" height="75">
+</a>
+<a class="image-popup-fit-width" href="http://farm9.staticflickr.com/8379/8588290361_ecf8c27021_b.jpg" title="This image fits only horizontally.">
+	<img src="http://farm9.staticflickr.com/8379/8588290361_ecf8c27021_s.jpg" width="75" height="75">
+</a>
+<a class="image-popup-no-margins" href="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg">
+	<img src="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg" width="107" height="75">
+</a>
+
+
+<style>
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+</style>
+
+
+
+
+		</section>
+
+
+
+		<section class="container">
+
+			<ul>
+				<li>
+					<a class="popup-youtube" href="https://www.youtube.com/embed/7qBfdcI-d1Q">Відкрити YouTube</a>
+				</li>
+
+				<br>
+
+				<li>
+					<a  class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d650023.5586166863!2d29.438655257515574!3d50.4754669217765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe273a985710ff3df!2z0JbQuNGC0L7QvNC40YDRgdGM0LrQsA!5e0!3m2!1suk!2sua!4v1618399697725!5m2!1suk!2sua" >Карта</a>
+				</li>
+
+			</ul>
+		</section>
+
+
+	</main>
+
+
+
+
+<!--JS-->
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
+<!--OwlCarousel-->
+
+<link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
+<script src="owlcarousel/owl.carousel.js"></script>
+
+<script>
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+	  autoplay:true,
+	  autoplayTimeout:1000,
+    margin:10,
+    nav:false,
+	autoWidth:true,
+    responsive:{
+        0:{
+            items:1,
+			nav:false
+        },
+		600:{
+            items:2
+        },
+        900:{
+            items:3
+        },
+        1200:{
+            items:4
+        }
+    }
+  })
+});
+</script>
+
+
+<!--Перелік Фото-->
+
+<script type="text/javascript" src="unitegallery/js/unitegallery.min.js"></script>
+<link rel="stylesheet" href="unitegallery/css/unite-gallery.css" type="text/css">
+
+<script type="text/javascript" src="unitegallery/themes/default/ug-theme-default.js"></script>
+<link rel="stylesheet" href="unitegallery/themes/default/ug-theme-default.css" type="text/css">
+
+
+<script src='unitegallery/themes/tiles/ug-theme-tiles.js' type='text/javascript'></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery("#galleryTiles").unitegallery({
+		gallery_theme: "tiles",
+		tiles_type: "nested"
+	});
+});
+</script>
+
+<script src='unitegallery/themes/slider/ug-theme-slider.js' type='text/javascript'></script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+	jQuery("#gallerySlider").unitegallery({
+		gallery_theme: "slider",
+		gallery_play_interval: 1000
+	});
+});
+
+</script>
+
+<!--MagnificPopup-->
+<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+<script src="magnific-popup/jquery.magnific-popup.js"></script>
+
+
+<script>
+
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1]
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
+});
+</script>
+
+
+<script>
+$(document).ready(function() {
+
+	$('.image1').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+
+	});
+
+	$('.image-popup-fit-width').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		image: {
+			verticalFit: false
+		}
+	});
+
+	$('.image-popup-no-margins').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		closeBtnInside: false,
+		fixedContentPos: true,
+		mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+		image: {
+			verticalFit: true
+		},
+		zoom: {
+			enabled: true,
+			duration: 300 // don't foget to change the duration also in CSS
+		}
+	});
+
+});
+</script>
+
+<script>
+	/* magnificPopup video view */
+	$('.popup-video').magnificPopup({
+		type: 'iframe'
+	});
+
+	$(document).ready(function() {
+		$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+			disableOn: 700,
+			type: 'iframe',
+			mainClass: 'mfp-fade',
+			removalDelay: 160,
+			preloader: false,
+
+			fixedContentPos: false
+		});
+	});
+
+
+	/* magnificPopup img view */
+	$('.popup-image').magnificPopup({
+		type: 'image',
+		gallery: {
+			enabled: true
+		}
+	});
+
+	$('.popup-gallery').magnificPopup({
+		delegate: '.gallery-link',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>Azon5</small>';
+			}
+		}
+	});
+</script>
+</body>
+</html>
